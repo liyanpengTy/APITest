@@ -1,0 +1,89 @@
+QA1:
+  n_login_info:
+    loginFromServer: 'https://api.zstnb.cn:18081'
+    loginFromSystemCode: N
+    #passwordVersion: 1 #去掉该参数，password传输可不加密
+    username: troycg
+    password: zst123
+    ifDataPlatform: 0
+    verification:
+
+  w_login_info:
+    loginFromServer: 'https://api.zstnb.cn:18081'
+    loginFromSystemCode: W
+    #passwordVersion: 1 #去掉该参数，password传输可不加密
+    phone: 18370601280
+    password: null
+    ifVerify: true
+    verifyCode: 1234
+    ifDataPlatform: 1
+    verification:
+
+  y_login_info:
+    loginFromServer: 'https://api.zstnb.cn:18090'
+    loginFromSystemCode: Y
+    #passwordVersion: 1 #去掉该参数，password传输可不加密
+    userName: liyanpeng
+    userPass: dc483e80a7a0bd9ef71d8cf973673924
+    platformCode: 1
+    verification:
+
+QA2:
+  n_login_info:
+    loginFromServer: 'https://dev.api.zstnb.cn:18081'
+    loginFromSystemCode: N
+    #passwordVersion: 1 #去掉该参数，password传输可不加密
+    username: troycg
+    password: zst123
+    ifDataPlatform: 0
+    verification:
+
+  w_login_info:
+    loginFromServer: 'https://dev.api.zstnb.cn:18081'
+    loginFromSystemCode: W
+    #passwordVersion: 1 #去掉该参数，password传输可不加密
+    phone: 18370601280
+    password: null
+    ifVerify: true
+    verifyCode: 1234
+    ifDataPlatform: 1
+    verification:
+
+  y_login_info:
+    loginFromServer: 'https://dev.api.zstnb.cn:18090'
+    loginFromSystemCode: Y
+    #passwordVersion: 1 #去掉该参数，password传输可不加密
+    userName: liyanpeng
+    userPass: dc483e80a7a0bd9ef71d8cf973673924
+    platformCode: 1
+    verification:
+
+QA3:
+  n_login_info:
+    loginFromServer: 'https://api.zhongsituo.com'
+    loginFromSystemCode: N
+    #passwordVersion: 1 #去掉该参数，password传输可不加密
+    username: null
+    password: null
+    ifDataPlatform: null
+    verification:
+
+  w_login_info:
+    loginFromServer: 'https://api.zhongsituo.com'
+    loginFromSystemCode: W
+    #passwordVersion: 1 #去掉该参数，password传输可不加密
+    phone: 18370601280
+    password: zst123
+    ifVerify: false
+    verifyCode: null
+    ifDataPlatform: 1
+    verification:
+
+  y_login_info:
+    loginFromServer: 'https://manage.zhongsituo.com/gt'
+    loginFromSystemCode: Y
+    #passwordVersion: 1 #去掉该参数，password传输可不加密
+    userName: liyanpeng
+    userPass: dc483e80a7a0bd9ef71d8cf973673924
+    platformCode: 1
+    verification:
